@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   
+    font-family:monospace;
+    background: linear-gradient(120deg,#0e5888,#339e3a);
+height: 100vh;
+overflow: hidden;
+    
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 400px;
+     background-color: #42a949;
+     padding: 50px;
+     border-radius: 20px;
+     
+}
+.center input, h1  {
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 8px;
+   outline:none;
+   border: none;
+}
+.center h1{
+    text-align: center;
+}
+
+.submit-btn{
+    text-align: center;
+    border-color: #032305;
+    background-color: rgb(121, 162, 162);
+    font-size: 15px;
+   
+}
+.signup_link{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.pass{
+    text-align: center;
+    font-size: 20px;
+}
